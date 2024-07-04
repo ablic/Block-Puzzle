@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2cab258250ad0e409d51184cefd3365, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier: 
+  blockSprites:
+  - {fileID: 21300000, guid: 46bef42d4e585704bab11623cab93482, type: 3}
+  - {fileID: 21300000, guid: 3c993c2e87f026e4181af152059ae80f, type: 3}
+  - {fileID: 21300000, guid: c59eccf5b63045f4da28ca7d46f16603, type: 3}
+  - {fileID: 21300000, guid: 70648ac155da48a41aa9699895d6e45b, type: 3}
+  - {fileID: 21300000, guid: 0cf3d5cdec720eb4d9fa11696eba89b5, type: 3}
+  figurePointerFollowingSpeed: 14.9
+  figurePlacingSpeed: 12
+  figureReturnSpeed: 7
+  figureLockedStateAlpha: 0.5
+  figureScaleWhenDragging: 1.1
+  figureGrabSound: {fileID: 8300000, guid: 9e7bbd0fc3cba4c45bcf26b273a3780c, type: 3}
+  figureReturnSound: {fileID: 8300000, guid: 46f984dfcea62c14d8e1c359579dcc00, type: 3}
+  figurePlaceSound: {fileID: 8300000, guid: 0f0594841cce75a4ea2a13f501800f9f, type: 3}
+  boardClearPeriod: 0.05
+  boardClearSound: {fileID: 8300000, guid: 9e7bbd0fc3cba4c45bcf26b273a3780c, type: 3}
+  scoreUpdatePeriod: 0.08
+  stepBackAmountOnRestart: 1
+  stepBackAmountAward: 1
